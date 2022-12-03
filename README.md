@@ -1,2 +1,2 @@
 # DAI_CompatibilityTool
- 使Frosty及DAIMM兩個模組管理工具互相兼容
+懶人小工具，使用方式請參考Steam指南:https://steamcommunity.com/sharedfiles/filedetails/?id=2296060524
