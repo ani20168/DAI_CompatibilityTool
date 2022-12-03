@@ -1,0 +1,9 @@
+G:\VSproject\DAI_CompatibilityTool\DAI_CompatibilityTool\bin\Debug\DAI_CompatibilityTool.exe.config
+G:\VSproject\DAI_CompatibilityTool\DAI_CompatibilityTool\bin\Debug\DAI_CompatibilityTool.exe
+G:\VSproject\DAI_CompatibilityTool\DAI_CompatibilityTool\bin\Debug\DAI_CompatibilityTool.pdb
+G:\VSproject\DAI_CompatibilityTool\DAI_CompatibilityTool\obj\Debug\DAI_CompatibilityTool.csprojAssemblyReference.cache
+G:\VSproject\DAI_CompatibilityTool\DAI_CompatibilityTool\obj\Debug\DAI_CompatibilityTool.Form1.resources
+G:\VSproject\DAI_CompatibilityTool\DAI_CompatibilityTool\obj\Debug\DAI_CompatibilityTool.Properties.Resources.resources
+G:\VSproject\DAI_CompatibilityTool\DAI_CompatibilityTool\obj\Debug\DAI_CompatibilityTool.csproj.GenerateResource.cache
+G:\VSproject\DAI_CompatibilityTool\DAI_CompatibilityTool\obj\Debug\DAI_CompatibilityTool.exe
+G:\VSproject\DAI_CompatibilityTool\DAI_CompatibilityTool\obj\Debug\DAI_CompatibilityTool.pdb

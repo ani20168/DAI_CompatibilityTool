@@ -1,0 +1,2 @@
+# DAI_CompatibilityTool
+ 使Frosty及DAIMM兩個模組管理工具互相兼容
