@@ -1,3 +1,4 @@
 
 *.cache
 *.vsidx
+.vs/DAI_CompatibilityTool/FileContentIndex/read.lock
