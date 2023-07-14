@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using System.Globalization;
+using System.Threading;
 
 namespace DAI_CompatibilityTool
 {
@@ -121,6 +123,17 @@ namespace DAI_CompatibilityTool
             
         }
 
-
+        private void language_button_Click(object sender, EventArgs e)
+        {
+            if (Thread.CurrentThread.CurrentUICulture.Name == "zh-TW")
+            {
+                Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo("en");
+            }
+            else
+            {
+                Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo("zh-TW");
+            }
+            this.Controls.Clear(); this.InitializeComponent();
+        }
     }
 }
