@@ -3,68 +3,159 @@
 //     這段程式碼是由工具產生的。
 //     執行階段版本:4.0.30319.42000
 //
-//     變更這個檔案可能會導致不正確的行為，而且如果已重新產生
-//     程式碼，則會遺失變更。
+//     對這個檔案所做的變更可能會造成錯誤的行為，而且如果重新產生程式碼，
+//     變更將會遺失。
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace DAI_CompatibilityTool.Properties
-{
-
-
+namespace DAI_CompatibilityTool.Properties {
+    using System;
+    
+    
     /// <summary>
-    ///   用於查詢當地語系化字串等的強類型資源類別
+    ///   用於查詢當地語系化字串等的強類型資源類別。
     /// </summary>
     // 這個類別是自動產生的，是利用 StronglyTypedResourceBuilder
-    // 類別透過 ResGen 或 Visual Studio 這類工具產生。
+    // 類別透過 ResGen 或 Visual Studio 這類工具。
     // 若要加入或移除成員，請編輯您的 .ResX 檔，然後重新執行 ResGen
     // (利用 /str 選項)，或重建您的 VS 專案。
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources
-    {
-
+    internal class Resources {
+        
         private static global::System.Resources.ResourceManager resourceMan;
-
+        
         private static global::System.Globalization.CultureInfo resourceCulture;
-
+        
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Resources()
-        {
+        internal Resources() {
         }
-
+        
         /// <summary>
         ///   傳回這個類別使用的快取的 ResourceManager 執行個體。
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager
-        {
-            get
-            {
-                if ((resourceMan == null))
-                {
+        internal static global::System.Resources.ResourceManager ResourceManager {
+            get {
+                if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("DAI_CompatibilityTool.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
             }
         }
-
+        
         /// <summary>
         ///   覆寫目前執行緒的 CurrentUICulture 屬性，對象是所有
         ///   使用這個強類型資源類別的資源查閱。
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture
-        {
-            get
-            {
+        internal static global::System.Globalization.CultureInfo Culture {
+            get {
                 return resourceCulture;
             }
-            set
-            {
+            set {
                 resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類似 已開啟兼容，您可以使用Frosty開啟遊戲了 的當地語系化字串。
+        /// </summary>
+        internal static string active_mode_message {
+            get {
+                return ResourceManager.GetString("active_mode_message", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類似 找不到原始Patch資料夾 的當地語系化字串。
+        /// </summary>
+        internal static string cannot_find_patch_folder {
+            get {
+                return ResourceManager.GetString("cannot_find_patch_folder", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類似 目前為兼容模式，您可以使用Frosty開啟遊戲了 的當地語系化字串。
+        /// </summary>
+        internal static string current_is_active_mode_message {
+            get {
+                return ResourceManager.GetString("current_is_active_mode_message", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類似 目前兼容已關閉 的當地語系化字串。
+        /// </summary>
+        internal static string current_is_inactive_mode_message {
+            get {
+                return ResourceManager.GetString("current_is_inactive_mode_message", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類似 錯誤 的當地語系化字串。
+        /// </summary>
+        internal static string error {
+            get {
+                return ResourceManager.GetString("error", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類似 完整兼容 的當地語系化字串。
+        /// </summary>
+        internal static string fully_compatible {
+            get {
+                return ResourceManager.GetString("fully_compatible", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類似 兼容已關閉 的當地語系化字串。
+        /// </summary>
+        internal static string inactive_mode_message {
+            get {
+                return ResourceManager.GetString("inactive_mode_message", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類似 不兼容 的當地語系化字串。
+        /// </summary>
+        internal static string incompatible {
+            get {
+                return ResourceManager.GetString("incompatible", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類似 提示 的當地語系化字串。
+        /// </summary>
+        internal static string messagebox_title {
+            get {
+                return ResourceManager.GetString("messagebox_title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類似 尚未選擇路徑 的當地語系化字串。
+        /// </summary>
+        internal static string no_path_selected_message {
+            get {
+                return ResourceManager.GetString("no_path_selected_message", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類似 未知 的當地語系化字串。
+        /// </summary>
+        internal static string unknown {
+            get {
+                return ResourceManager.GetString("unknown", resourceCulture);
             }
         }
     }

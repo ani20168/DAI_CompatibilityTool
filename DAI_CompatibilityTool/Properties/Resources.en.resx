@@ -118,36 +118,36 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="active_mode_message" xml:space="preserve">
-    <value>已開啟兼容，您可以使用Frosty開啟遊戲了</value>
+    <value>Compatibility mode activated, you can now launch the game with Frosty.</value>
   </data>
   <data name="cannot_find_patch_folder" xml:space="preserve">
-    <value>找不到原始Patch資料夾</value>
+    <value>Cannot find the original Patch folder</value>
   </data>
   <data name="current_is_active_mode_message" xml:space="preserve">
-    <value>目前為兼容模式，您可以使用Frosty開啟遊戲了</value>
+    <value>Currently in compatibility mode, you can launch the game with Frosty.</value>
   </data>
   <data name="current_is_inactive_mode_message" xml:space="preserve">
-    <value>目前兼容已關閉</value>
+    <value>Currently, compatibility mode is deactivated.</value>
   </data>
   <data name="error" xml:space="preserve">
-    <value>錯誤</value>
+    <value>Error</value>
   </data>
   <data name="fully_compatible" xml:space="preserve">
-    <value>完整兼容</value>
+    <value>Fully compatible</value>
   </data>
   <data name="inactive_mode_message" xml:space="preserve">
-    <value>兼容已關閉</value>
+    <value>Compatibility mode deactivated</value>
   </data>
   <data name="incompatible" xml:space="preserve">
-    <value>不兼容</value>
+    <value>Incompatible</value>
   </data>
   <data name="messagebox_title" xml:space="preserve">
-    <value>提示</value>
+    <value>Message</value>
   </data>
   <data name="no_path_selected_message" xml:space="preserve">
-    <value>尚未選擇路徑</value>
+    <value>No path selected</value>
   </data>
   <data name="unknown" xml:space="preserve">
-    <value>未知</value>
+    <value>Unknown</value>
   </data>
 </root>
